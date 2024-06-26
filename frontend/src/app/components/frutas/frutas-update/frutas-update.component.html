@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>
+        Alterar Fruta
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+           <input matInput placeholder="Nome" 
+                 [(ngModel)] = "fruta.nome" name="nome"> 
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+            [(ngModel)] = "fruta.preco" name="preco"> 
+         </mat-form-field>
+    </form>
+    <div>
+        <button mat-raised-button (click)="updateFruta()" color = "primary">
+            Salvar
+        </button>
+        
+        <button mat-raised-button (click)="cancel()" >
+            Cancelar
+        </button>
+    </div>
+</mat-card>
+

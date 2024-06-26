@@ -1,0 +1,19 @@
+{
+  "frutas": [
+    {
+      "id": "1",
+      "nome": "Uva",
+      "preco": 3
+    },
+    {
+      "id": "0d6f",
+      "nome": "Pera",
+      "preco": "5"
+    },
+    {
+      "id": "45ed",
+      "nome": "pessego2",
+      "preco": "15"
+    }
+  ]
+}
